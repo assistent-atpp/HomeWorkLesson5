@@ -9,7 +9,7 @@ public class Employee {
     private int salary;         // зарплата
     private int age;            // возраст
 
-
+    // конструктор "Сотрудник"
     public Employee (String fullName, String post, String email, String telephone, int salary, int age) {
         this.fullName = fullName;
         this.post = post;
@@ -18,7 +18,7 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
-
+    // метод "Информация" для вывода данных о сотрудниках в консоль
     public void information (){
         System.out.println("ФИО: " + fullName);
         System.out.println("Должность: " + post);
