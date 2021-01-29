@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Employee [] employeeArray = new Employee [5];
+        // Сотрудники
         employeeArray [0] = new Employee(
                 "Antonov Sergey Mikhailovich",
                 "Leading specialist",
